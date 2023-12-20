@@ -7,8 +7,8 @@ function MyAlert() {
 
 	if (show) {
 		return (
-			<Alert variant="primary" onClose={() => setShow(false)} dismissible>
-				<Alert.Heading className="text-center">Welcome to our Shop!</Alert.Heading>
+			<Alert variant="primary" onClose={() => setShow(false)} dismissible className="text-center">
+				<Alert.Heading>Welcome to our Shop!</Alert.Heading>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo non ad dolores autem dicta reiciendis?</p>
 			</Alert>
 		);

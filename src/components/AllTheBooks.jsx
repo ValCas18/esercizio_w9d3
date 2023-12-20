@@ -16,7 +16,7 @@ const MyCard = (props) => (
 							<Card.Text>
 								{book.category.toUpperCase()} - <Badge className="bg-success"> {book.price} €</Badge>
 							</Card.Text>
-							<Button variant="primary">Buy</Button>
+							<Button variant="primary">Buy!</Button>
 						</Card.Body>
 					</Card>
 				</Col>
