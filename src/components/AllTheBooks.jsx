@@ -5,7 +5,7 @@ import { Badge, Col, Container, Row } from "react-bootstrap";
 
 const MyCard = (props) => (
 	<Container>
-		<h3>Genere: {props.genere}</h3>
+		<h3 className="mb-3">Genere: {props.genere}</h3>
 		<Row xs={1} md={4} className="g-4">
 			{fantasy.map((book) => (
 				<Col key={book.asin}>

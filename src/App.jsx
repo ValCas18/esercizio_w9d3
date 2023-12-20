@@ -4,13 +4,16 @@ import MyTopBar from "./components/TopBar";
 import MyFooter from "./components/Footer";
 import MyAlert from "./components/Welcome";
 import MyCard from "./components/AllTheBooks";
+import BookList from "./components/BookList";
+import scifi from "./data/scifi.json";
 
 function App() {
 	return (
 		<div>
 			<MyTopBar />
 			<MyAlert />
-			<MyCard />
+			<MyCard genere="Fantasy" />
+			<BookList genere="Sci-Fi" genre={scifi} />
 			<MyFooter />
 		</div>
 	);
