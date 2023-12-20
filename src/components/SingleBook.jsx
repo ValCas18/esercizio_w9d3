@@ -9,7 +9,7 @@ class SingleBook extends Component {
 	};
 	render() {
 		return (
-			<Card className="h-100" style={{ borderColor: this.state.selected ? "red" : "grey" }}>
+			<Card className="h-100" style={{ borderWidth: "2px", borderColor: this.state.selected ? "red" : "grey" }}>
 				<Card.Img
 					variant="top"
 					src={this.props.img}
